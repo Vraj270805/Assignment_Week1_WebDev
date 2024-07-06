@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D6EFD8;
+}
+
+header {
+    background-color: #80AF81;
+    padding: 10px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: #1A5319;
+}
+
+.header ul a:hover {
+    color: #D6EFD8;
+    background-color: #1A5319;
+    padding: 5px;
+}
+
+.header ul a.active {
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#memorable {
+    padding-top: 50px;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #1A5319;
+}
+
+#memorable_div h1 {
+    text-align: center;
+    color: #80AF81;
+    background-color: #2d6f2c;
+    padding: 20px;
+}
+
+#memorable_div h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    color: #1A5319;
+    background-color: #80AF81;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex img {
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+#memorable2 {
+    padding-top: 50px;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #1A5319;
+}
+
+#memorable_div2 h1 {
+    text-align: center;
+    color: #80AF81;
+    background-color: #2d6f2c;
+    padding: 20px;
+}
+
+#memorable_div2 h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    color: #1A5319;
+    background-color: #80AF81;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#memorable3 {
+    padding-top: 50px;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #1A5319;
+}
+
+#memorable_div3 h1 {
+    text-align: center;
+    color: #80AF81;
+    background-color: #2d6f2c;
+    padding: 20px;
+}
+
+#memorable_div3 h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    color: #1A5319;
+    background-color: #80AF81;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #80AF81;
+    padding: 10px;
+    text-align: center;
+    color: #1A5319;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1A5319;
+}
+
+@media screen and (max-width: 991px) {
+    /* Add your responsive styles here */
+    .flex img {
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+
+    #memorable_div h3 {
+        font-size: 22px;
+        padding-top: 30px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        color: #1A5319;
+        background-color: #80AF81;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    #memorable_div2 h3 {
+        font-size: 24px;
+        padding-top: 30px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        color: #1A5319;
+        background-color: #80AF81;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    #memorable_div3 h3 {
+        font-size: 25px;
+        padding-top: 30px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        color: #1A5319;
+        background-color: #80AF81;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    #memorable{
+        padding-top: 50px;
+        height: 200px;
+        width: 500px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        color: #1A5319;
+    }
+
+    .header ul{
+        display: block;
+            text-align: center;
+    } 
+}
